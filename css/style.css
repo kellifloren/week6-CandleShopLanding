@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 2;
+
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.365), rgba(0, 0, 0, 0.726)), url("../images/image3.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    text-shadow: 0 0 2px #6ca8b8;
+    background-color: #3233298f;
+    color: #6ca8b8;
+    border: 2px solid #323329;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.intro-image__text a:hover {
+    background-color: #e24b50a1;
+    transform: scale(1.2);
+
+}
+
+
+.intro-text {
+    clip-path: polygon(50% 0%, 80% 10%, 100% 18%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0 84%, 0 22%, 20% 10%);
+    margin-top: -55px;
+    margin-bottom: -75px;
+    background-color: #6ca8b8 ;
+    color: #f9f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem; 
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.365), rgba(0, 0, 0, 0.726)), url("../images/image1.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    text-shadow: 0 0 2px #7c8490;
+    background-color: #37060586;
+    color: #7c8490;
+    border: 2px solid #5f160f85;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.packaging-image__text a:hover {
+    background-color: #e24b509c;
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    clip-path: polygon(50% 0%, 72% 9%, 100% 0, 100% 70%, 80% 90%, 50% 100%, 22% 97%, 1% 100%, 0 1%, 20% 5%);
+    margin-top: -40px;
+    margin-left: -15px;
+    margin-bottom: -75px;
+    background-color: #370605;
+    color: #f9f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem; 
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.365), rgba(0, 0, 0, 0.726)), url("../images/image7.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    text-shadow: 0 0 2px #d5d3cb;
+    background-color: #e24b5093;
+    color: #d5d3cb;
+    border: 2px solid #e24b50;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.tutorials-image__text a:hover {
+    background-color: #e24b50;
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #e24b51;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #d5d3cb;
+    display: inline-block;
+    transform: scale(1.1);
+}
